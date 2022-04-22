@@ -58,26 +58,26 @@ local win = UILib:Window("KAYZY X HUB",Color3.fromRGB(44, 120, 224), Enum.KeyCod
 repeat wait() until game:IsLoaded()
 	if getgenv().Setting then else
 		getgenv().Setting = {
-			["Auto Farm Level"] = true,
+			["Auto Farm Level"] = false,
 		
 			-- Setting etc
-			["Select Weapon"] = "Black Leg",
+			["Select Weapon"] = "",
 			["Auto Rejoin"] = false,
 		
 			-- Old World
-			["Auto New World"] = true,
+			["Auto New World"] = false,
 		
 			-- New World
 			["Auto Factory"] = false,
-			["Auto third World"] = true,
+			["Auto third World"] = false,
 		
 			-- New Fighting Styles & etc
 			["Auto Superhuman"] = false,
-			["Auto Superhuman [Full]"] = true,
+			["Auto Superhuman [Full]"] = false,
 			["Auto Death Step"] = false,
 			["Auto Dragon Talon"] = false,
 			["Auto Electric Clow"] = false,
-			["Auto Buy Legendary Sword"] = true,
+			["Auto Buy Legendary Sword"] = false,
 			["Auto Buy Legendary Sword Hop"] = false,
 			["Auto Buy Enhancement"] = false,
 			["Auto Farm Select Boss Hop"] = false,
@@ -88,7 +88,7 @@ repeat wait() until game:IsLoaded()
 			["Sword"] = false,
 			["Gun"] = false,
 			["Demon Fruit"] = false,
-			["kaitan"] = true,
+			["kaitan"] = false,
 		
 			-- 
 
